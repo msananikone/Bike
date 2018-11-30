@@ -1,10 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
 
-/** HEADER AND FOOTER **/
-.header{
+img{
     
 }
 
-footer{
+a{
+    font-family: "Exo 2", sans-serif;
+    padding-right: 20px;
+    color: white;
+}
+
+#BuyRent{
     
+}
+
+#Maintenance{
+    
+}
+
+#Classes{
+    
+}
+
+#EarnABike{
+    
+}
+
+#Login{
+    
+}
+/** HEADER AND FOOTER **/
+.header{
+    background: #C2E59C;
+    position: relative;
+    font-family: "Exo 2", sans-serif;
+}
+.headerSpan{
+    height: 100px;
+    background-color: #C2E59C;
+    color: #FFFFFF;
+}
+
+footer{
+    background: #64B3F4;
+    color: #FFFFFF;
+    padding: 1rem 0 1rem 2.5rem;
+    text-align: center;
 }
