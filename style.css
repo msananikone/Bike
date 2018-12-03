@@ -4,10 +4,35 @@ img{
     
 }
 
-a{
+a.navbarlinks{
     font-family: "Exo 2", sans-serif;
     padding-right: 20px;
     color: white;
+}
+
+h1 {
+    position: absolute;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p.earn{
+    text-align: center;
+}
+div.header{
+    text-align:center;
+}
+div.nav{
+    
+}
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #BuyRent{
