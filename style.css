@@ -4,19 +4,38 @@ img{
     
 }
 
-a{
+a.navbarlinks{
     font-family: "Exo 2", sans-serif;
     padding-right: 20px;
     color: white;
 }
+h1 {
+    position: absolute;
+}
+h2{
+    text-align: center;
+}
+p.earn{
+    text-align: center;
+}
+div.header{
+    text-align:center;
+}
+div.nav{
+    
+}
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    padding-bottom: 10px;
+}
 
 #BuyRent{
-color:black;
-			font-family: "Exo 2", sans-serif;
-}		
-.blacktext{ 
-	color:#000000;
-	font-family: "Exo 2", sans-serif;
+    
 }
 
 #Maintenance{
@@ -27,8 +46,30 @@ color:black;
     
 }
 
-#EarnABike{
-    
+#EarnImage{
+    float:right;
+}
+#EarnABikeSection{
+    background-color: #FFEFD5;
+    color: #6EA3D7;
+}
+#centeredbutton{
+    display: flex;
+    justify-content: center;
+}
+input.MyButton {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: #3366cc;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+}
+input.MyButton:hover {
+
 }
 
 #Login{
@@ -52,5 +93,3 @@ footer{
     padding: 1rem 0 1rem 2.5rem;
     text-align: center;
 }
-
-
