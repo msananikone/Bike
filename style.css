@@ -34,6 +34,9 @@ li{
     margin: 0;
     padding: 0;
 }
+.container-fluid {
+    padding-bottom: 10px;
+}
 
 #BuyRent{
     
@@ -47,8 +50,30 @@ li{
     
 }
 
-#EarnABike{
-    
+#EarnImage{
+    float:right;
+}
+#EarnABikeSection{
+    background-color: #FFEFD5;
+    color: #6EA3D7;
+}
+#centeredbutton{
+    display: flex;
+    justify-content: center;
+}
+input.MyButton {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: #3366cc;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+}
+input.MyButton:hover {
+
 }
 
 #Login{
