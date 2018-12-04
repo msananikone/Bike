@@ -13,9 +13,10 @@ a{
 #BuyRent{
 color:black;
 			font-family: "Exo 2", sans-serif;
-			
-.blacktext{ color:#000000;
-			font-family: "Exo 2", sans-serif;}
+}		
+.blacktext{ 
+	color:#000000;
+	font-family: "Exo 2", sans-serif;
 }
 
 #Maintenance{
