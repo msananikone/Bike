@@ -22,12 +22,6 @@ h2{
 p.earn{
     text-align: center;
 }
-div.header{
-    text-align:center;
-}
-div.nav{
-    
-}
 li{
     display: inline;
     list-style-type: none;
@@ -61,6 +55,20 @@ li{
     display: flex;
     justify-content: center;
 }
+#volunteerwords{
+    
+}
+#button2{
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: #3366cc;
+    color: #fff; 
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+}
 input.MyButton {
     width: 300px;
     padding: 20px;
@@ -72,28 +80,33 @@ input.MyButton {
     border: 1px solid #3366cc;
     border-radius: 10px;
 }
-input.MyButton:hover {
-
-}
-
 #Login{
     
 }
 /** HEADER AND FOOTER **/
 .header{
-    background: #C2E59C;
+    background: #64B3F4;
     position: relative;
     font-family: "Exo 2", sans-serif;
 }
 .headerSpan{
     height: 100px;
-    background-color: #C2E59C;
+    background-color: #64B3F4;
     color: #FFFFFF;
 }
-
+div.header{
+    text-align:center;
+}
+div.nav{
+    text-align: center;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 footer{
-    background: #64B3F4;
+    background: #C2E59C;
     color: #FFFFFF;
     padding: 1rem 0 1rem 2.5rem;
     text-align: center;
+    font-size: 18px;
 }
